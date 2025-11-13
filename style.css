@@ -1,0 +1,51 @@
+body {
+  background-color: #f3f1eb;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.carte {
+  background-color: #fff;
+  border: 10px solid #ddd;
+  border-radius: 100px;
+  padding: 50px;
+  text-align: center;
+  box-shadow: 0 10em 51em 21em rgb(2, 76, 187);
+  max-width: 600px;
+  position: relative;
+}
+
+h1 {
+  color: #250bb8;
+  font-size: 3em;
+}
+
+p {
+  color: #333;
+  line-height: 1;
+}
+
+.decoration {
+  margin-top: 10px;
+}
+
+.etoile {
+  font-size: 1.5em;
+  display: inline-block;
+  margin: 0 10px;
+  animation: clignote 2s infinite;
+}
+
+@keyframes clignote {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
